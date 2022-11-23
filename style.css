@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+/*header*/
+.encabezado{
+    background-image: url(/img/5291450.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    gap:4%;
+    color:rgba(49, 126, 81, 0.753);
+}
+.foto{
+    border-radius: 60%;
+    width: 30%;
+}
+.accesos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12%;  
+}
+
+/*efectos links*/
+.accesos a{
+    color: rgba(49, 126, 81, 0.753);
+    text-decoration: none;
+    font-size: large;
+}
+
+.accesos a:link:hover{
+    color:rgb(154, 231, 184);
+}
+.accesos a:link:visited{
+    color:rgba(49, 126, 81, 0.753);
+}
+/*fin efectos links*/
+
+main{
+    background-image: url(img/5291450.jpg);
+    margin:0;
+    padding:0;
+}
+
+.informacionPersonal{   
+    color:rgba(49, 126, 81, 0.753);
+    font-family:  'Be Vietnam Pro', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding:6%;
+    gap:9%;
+}
+.info{
+    width: 60%;
+    text-align:start;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+.contacto{
+    width: 30%;
+    margin: 6% 0 6% 3%;  
+}
+.skillItem{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+    font-size: x-large;
+    text-align: center;
+    
+}
+
+.skillItem div:nth-child(1){
+    background-color: rgb(132, 223, 214);
+    height: 150px;
+    width: 200px;
+    
+
+}
+.skillItem div:nth-child(2){
+    background-color: rgba(253, 182, 48, 0.918);
+    height: 150px;
+    width: 200px;
+
+}
+.skillItem div:nth-child(3){
+    background-color: rgb(62, 24, 151);
+    height: 150px;
+    width: 200px;
+    color:white;
+
+}
+.skillItem div:nth-child(4){
+    background-color:  rgb(132, 223, 214);
+    height: 150px;
+    width: 400px;
+}
+.skillItem div:nth-child(5){
+    background-color: rgb(62, 24, 151);
+    height: 150px;
+    width: 400px;
+    color:white;
+}
+.skillItem div:nth-child(6){
+    background-color: rgb(132, 223, 214);
+    height: 150px;
+    width: 200px;
+}
+.skillItem div:nth-child(7){
+    background-color:  rgba(253, 182, 48, 0.918);
+    height: 150px;
+    width: 200px;
+}
+.skillItem div:nth-child(8){
+    background-color: rgb(62, 24, 151);
+    height: 150px;
+    width: 200px;
+    color:white;
+}
+.skillItem div:nth-child(9){
+    background-color: turquoise;
+    height: 150px;
+    width: 200px;
+}
+.skillItem div:nth-child(10){
+    background-color: rgba(253, 182, 48, 0.918);
+    height: 150px;
+    width: 200px;
+}
+.skillItem div:nth-child(11){
+    background-color: rgb(62, 24, 151);
+    height: 150px;
+    width: 200px;
+    color:white;
+}
+.skillItem div:nth-child(12){
+    background-color: rgb(132, 223, 214);
+    height: 150px;
+    width: 400px;
+}
